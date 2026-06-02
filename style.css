@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #188F4A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img {
+    margin-bottom: -150px;
+}
+
+.end-result {
+    font-weight: 700;
+    font-size: 250px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 26px;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    height: 74px;
+    width: 342px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.input-min {
+    margin-right: 62px;
+}
+
+button {
+    background: #AEC346;
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+    border-radius: 10px;
+    width: 342px;
+    height: 72px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 36px;
+    margin-top: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 850px) {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 97%;
+        margin-top: 0;
+        margin-bottom: -120px;
+        height: auto;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .end-result {
+        font-weight: 600;
+        font-size: 200px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: -50px;
+    }
+
+    .input-min {
+        display: inline-block;
+        width: 160px;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+
+    .input-max {
+        display: inline-block;
+        width: 160px;
+        font-size: 30px;
+    }
+
+    button {
+        margin-top: 60px;
+    }
+}

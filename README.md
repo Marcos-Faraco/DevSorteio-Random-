@@ -23,6 +23,6 @@
   Este projeto é totalmente responsivo, abaixo podemos ver sua apresentação na tela de smartphone.
 </p>
 <br/>
-<img src="https://github.com/Marcos-Faraco/DevSorteio-Random-/blob/main/assets/img-mobile.png?raw=true" margin-left="auto" margin-right="auto"/>
+<img src="https://github.com/Marcos-Faraco/DevSorteio-Random-/blob/main/assets/img-mobile.png?raw=true" margin-left="100px"/>
 <br/>
 <p>Este foi um projeto onde consegui absorver muitos ensinamentos e o mais importante, coloca-los em prática.</p>
